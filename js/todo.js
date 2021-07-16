@@ -21,6 +21,7 @@ function deleteToDo(event) {
 function paintToDo(newTodo) {
     const li = document.createElement("li");
     li.classList.add("nodot");
+    li.classList.add("bottom-margin");
     li.id = newTodo.id;
     const span = document.createElement("span");
     span.innerText = newTodo.text;
