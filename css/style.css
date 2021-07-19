@@ -28,13 +28,22 @@
     }
 }
 
-@media (min-width: 680px) {
+@media (min-width: 680px) and(max-width:1250px) {
     .bottom-margin {
         min-height: 30px;
-        margin-left: 8%;
+        margin-left: 10%;
     }
 }
 
+@media (min-width: 1250px) {
+    .bottom-margin {
+        min-height: 30px;
+        margin-left: 18%;
+    }
+}
+
+
+}
 .setlibutton {
     color: grey;
     font-size: 25;
@@ -46,7 +55,6 @@
     position: inherit;
     max-height: 20px;
 }
-
 .clock {
     font-size: 150px;
     margin-bottom: -60px;
@@ -54,11 +62,9 @@
     text-align: center;
     margin-top: 12%;
 }
-
 .gretingsize {
     font-size: 50px;
 }
-
 .underline {
     border: none;
     background: transparent;
@@ -67,7 +73,6 @@
     max-width: 600px;
     height: 40px;
 }
-
 .ok {
     border: white;
     background: white;
@@ -80,7 +85,6 @@
     opacity: 80%;
     color: grey;
 }
-
 .underline_login {
     border: none;
     background: transparent;
@@ -88,30 +92,25 @@
     width: 400px;
     height: 40px;
 }
-
 .righttop {
     position: fixed;
     right: 10px;
     top: 5px;
     color: white;
 }
-
 input:focus {
     outline: none;
 }
-
 .content {
     margin: 0 auto;
     width: 50vw;
     min-width: 400px;
 }
-
 .nodot {
     list-style: none;
     display: inline-flex;
     justify-content: space-between;
 }
-
 .container {
     position: absolute;
     top: -1px;
@@ -121,16 +120,13 @@ input:focus {
     height: calc(100vh + 1px);
     overflow: hidden;
 }
-
 .whiteCenter {
     color: white;
     text-align: center;
 }
-
 .margingreeting {
     margin-bottom: 0px;
 }
-
 #quote {
     position: absolute;
     left: 50%;
@@ -139,12 +135,10 @@ input:focus {
     text-align: center;
     min-width: 400px;
 }
-
 .bottom1 {
     display: block;
     font-size: medium;
 }
-
 .bottom2 {
     display: block;
     font-size: xx-small;
