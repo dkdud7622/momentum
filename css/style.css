@@ -22,9 +22,17 @@
     max-width: 530px;
 }
 
-.bottom-margin {
-    min-height: 30px;
-    transform: translateX(5%);
+@media (max-width: 680px) {
+    .bottom-margin {
+        min-height: 30px;
+    }
+}
+
+@media (min-width: 680px) {
+    .bottom-margin {
+        min-height: 30px;
+        margin-left: 8%;
+    }
 }
 
 .setlibutton {
@@ -55,7 +63,7 @@
     border: none;
     background: transparent;
     border-bottom: white 2px solid;
-    width: 75vw;
+    width: 60vw;
     max-width: 600px;
     height: 40px;
 }
